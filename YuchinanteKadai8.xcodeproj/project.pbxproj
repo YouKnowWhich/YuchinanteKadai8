@@ -9,21 +9,23 @@
 /* Begin PBXBuildFile section */
 		4F1AFB072AF904D400F547FA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AFB062AF904D400F547FA /* AppDelegate.swift */; };
 		4F1AFB092AF904D400F547FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AFB082AF904D400F547FA /* SceneDelegate.swift */; };
-		4F1AFB0B2AF904D400F547FA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AFB0A2AF904D400F547FA /* ViewController.swift */; };
 		4F1AFB0E2AF904D400F547FA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1AFB0C2AF904D400F547FA /* Main.storyboard */; };
 		4F1AFB102AF904D500F547FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4F1AFB0F2AF904D500F547FA /* Assets.xcassets */; };
 		4F1AFB132AF904D500F547FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4F1AFB112AF904D500F547FA /* LaunchScreen.storyboard */; };
+		4F1AFB1B2AF9072600F547FA /* GreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AFB1A2AF9072600F547FA /* GreenViewController.swift */; };
+		4F1AFB1D2AF9096400F547FA /* OrangeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4F1AFB1C2AF9096400F547FA /* OrangeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		4F1AFB032AF904D400F547FA /* YuchinanteKadai8.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YuchinanteKadai8.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F1AFB062AF904D400F547FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4F1AFB082AF904D400F547FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4F1AFB0A2AF904D400F547FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4F1AFB0D2AF904D400F547FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4F1AFB0F2AF904D500F547FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4F1AFB122AF904D500F547FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4F1AFB142AF904D500F547FA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4F1AFB1A2AF9072600F547FA /* GreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GreenViewController.swift; sourceTree = "<group>"; };
+		4F1AFB1C2AF9096400F547FA /* OrangeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrangeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +60,8 @@
 			children = (
 				4F1AFB062AF904D400F547FA /* AppDelegate.swift */,
 				4F1AFB082AF904D400F547FA /* SceneDelegate.swift */,
-				4F1AFB0A2AF904D400F547FA /* ViewController.swift */,
+				4F1AFB1C2AF9096400F547FA /* OrangeViewController.swift */,
+				4F1AFB1A2AF9072600F547FA /* GreenViewController.swift */,
 				4F1AFB0C2AF904D400F547FA /* Main.storyboard */,
 				4F1AFB0F2AF904D500F547FA /* Assets.xcassets */,
 				4F1AFB112AF904D500F547FA /* LaunchScreen.storyboard */,
@@ -138,7 +141,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4F1AFB0B2AF904D400F547FA /* ViewController.swift in Sources */,
+				4F1AFB1B2AF9072600F547FA /* GreenViewController.swift in Sources */,
+				4F1AFB1D2AF9096400F547FA /* OrangeViewController.swift in Sources */,
 				4F1AFB072AF904D400F547FA /* AppDelegate.swift in Sources */,
 				4F1AFB092AF904D400F547FA /* SceneDelegate.swift in Sources */,
 			);
