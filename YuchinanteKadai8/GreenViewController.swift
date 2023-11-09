@@ -9,10 +9,10 @@
 import UIKit
 
 class GreenViewController: UIViewController {
-    @IBOutlet weak var label: UILabel! // ユーザーに表示されるラベル
-    @IBOutlet weak var slider: UISlider! // ユーザーが操作するスライダー
+    @IBOutlet private weak var label: UILabel! // ユーザーに表示されるラベル
+    @IBOutlet private weak var slider: UISlider! // ユーザーが操作するスライダー
 
-    @IBAction func changeSlider(_ sender: Any) {
+    @IBAction private func changeSlider(_ sender: Any) {
         let sliderValue = slider.value // スライダーの値を取得
 
         // AppDelegateを使用してデータを共有
